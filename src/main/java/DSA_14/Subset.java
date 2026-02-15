@@ -9,10 +9,10 @@ public class Subset {
 	public static List<List<Integer>> subsetMethod(int ar[], List<List<Integer>> res) {
  		Arrays.sort(ar); // sort to handle duplicates
 		res.add(new ArrayList<>()); // empty subset
-		for (int l : ar) {
-			int size = res.size();
+		for (int l : ar) { // iterate 
+			int size = res.size(); 
 			System.out.println(size);
-			for (int i = 0; i < size; i++) {
+			for (int i = 0; i < size; i++) { // 
 				List<Integer> temp = new ArrayList<>(res.get(i)); // FIXED
 				temp.add(l);
 				res.add(temp);
