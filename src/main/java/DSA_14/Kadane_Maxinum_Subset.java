@@ -9,7 +9,7 @@ public class Kadane_Maxinum_Subset {
 
         for (int i = 1; i < ar.length; i++) {
 
-            cur = Math.max(ar[i], cur + ar[i]);
+            cur = Math.max(ar[i], cur + ar[i]); // incrment as one 
             max = Math.max(max, cur);
         }
 
