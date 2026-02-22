@@ -23,7 +23,6 @@ public class Two_pointer {
 
 		}
 		return target;
-		
 
 	}
 
@@ -33,7 +32,7 @@ public class Two_pointer {
 		int target = 9;
 
 		int u = twopointermethod(ar, target);
-System.out.println(u);
+		System.out.println(u);
 	}
 
 }
