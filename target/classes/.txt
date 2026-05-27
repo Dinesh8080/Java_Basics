@@ -1,0 +1,131 @@
+Interview Question ha been asked in Backend JAVA 
+REST CONSTRAINTS
+
+REST works on 6 main rules:
+
+Client – Server
+Client (UI) and Server (API) are separate.
+
+Stateless
+Server does not store any client session.
+Every request contains all required data.
+
+Cacheable
+Response can be stored in cache to improve speed.
+
+Uniform Interface
+Same API rules for all users.
+
+Layered System
+Request can pass through multiple layers like security, gateway, load balancer.
+
+Code on Demand (Optional)
+Server can send executable code (like JavaScript).
+
+MVC (Model View Controller)
+
+MVC is a design pattern used to structure applications.
+
+Model
+Handles business logic and database.
+
+View
+Handles UI (HTML, JSP, React).
+
+Controller
+Handles user requests and responses.
+
+Flow:
+User → Controller → Model → Controller → View
+
+HashSet
+
+HashSet stores only unique values.
+
+Features:
+
+No duplicate allowed
+
+No order maintained
+
+Uses HashMap internally
+
+Uses hashCode() and equals()
+
+Example:
+If you add 10 two times, only one 10 will be stored.
+
+ArrayList vs LinkedList
+
+ArrayList:
+
+Uses dynamic array
+
+Fast for searching
+
+Slow for insert and delete
+
+Allows random access
+
+LinkedList:
+
+Uses nodes
+
+Fast for insert and delete
+
+Slow for searching
+
+No random access
+
+Use ArrayList when reading data is more.
+Use LinkedList when adding or deleting data is more.
+
+Method Handling in Java
+
+Method Overloading
+Same method name, different parameters.
+
+Method Overriding
+Child class changes parent class method.
+
+Static Method
+Belongs to class.
+
+Final Method
+Cannot be overridden.
+
+Docker
+
+Docker is a container tool.
+
+It packages:
+Application + Java + Libraries + OS
+
+It makes application run same on all machines.
+
+Used in:
+Microservices
+CI/CD
+Cloud Deployment
+
+REST API Performance
+
+Why REST is fast:
+
+Stateless design
+
+Caching
+
+Load balancing
+
+Lightweight HTTP communication
+
+How to improve performance:
+
+Use pagination
+
+Use caching (Redis)
+
+Use async processing
+
+Use proper database indexes
